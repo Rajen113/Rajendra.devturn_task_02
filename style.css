@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
+    background-size:cover;
+  }
+  
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding-top: 50px;
+    text-align:left;
+    margin-top: 50px;
+    color: white;
+  }
+  
+  .content h1 {
+    font-size: 46px;
+  }
+  
+  .content p {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+ 
+  #btn1{
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #3498db;
+  }
+  #btn2{
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .menu {
+      margin-top: 10px;
+    }
+  
+    .menu ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .content {
+      margin-left: 30%;
+    }
+  
+    .content h1 {
+      font-size: 28px;
+    }
+  
+    .content p {
+      font-size: 16px;
+    }
+  }
+  
